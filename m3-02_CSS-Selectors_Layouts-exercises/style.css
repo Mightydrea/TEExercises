@@ -1,0 +1,155 @@
+:root {
+    --top-row-height: 120px;
+    --gutter: 20px;
+    --blue: #00adee;
+    --light-blue: rgba(0, 173, 238, 0.4);
+    --green: #8cc36f;
+    --light-green: rgba(170, 239, 135, 0.8);  
+    --bg-color: rgba(192, 192, 192, 0.1);
+    --subheading: rgba(0, 0, 0, 0.6);
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+  }
+   
+  body {
+    background-color: rgba(192, 192, 192, 0.1);
+    margin-left: 2%; margin-right: 2%;
+    display: grid;
+    overflow-y: scroll;
+    scrollbar-face-color: #00adee;
+    scrollbar-track-color: #00adee;
+    scroll-behavior: smooth;
+    grid-template-columns: 200px 4fr;
+    grid-template-areas:
+     "aside main"
+      "aside main"
+      "aside main"
+  }
+
+  body aside img {
+        width: auto;
+        height: 150px;
+        object-fit: scale-down;
+        position: relative;
+        margin-left: 10%;
+  }
+
+  body aside nav ul li{
+        padding: 15px; 
+        border-bottom-style: solid;
+        font-style: normal;
+        border-bottom-color: rgba(0, 173, 238, 0.4);
+        border-bottom-width: 1px;
+        border-spacing: 10px;
+        font-weight: bold; 
+        list-style-type: none;
+        text-align: center;
+        margin-right: 30px;
+        
+  }
+  
+  body main{
+        padding-left: 20px;
+        border-left-style: solid;
+        border-left-color: var(--light-blue);
+        border-left-width: 1px;
+        
+  }
+  
+  body main header img {
+        width: auto;
+        height: 150px;
+        object-fit: scale-down;
+        text-align: left;
+        position: relative;
+        padding-bottom: 15px;
+  }
+
+  body main header p{
+        font-size: 0px;
+  }
+
+  body main img{
+        width: 1150px;
+        height: 400px;
+        object-fit: cover;
+        margin-right: 15px;
+
+  }
+
+  body main section {
+        display: grid;
+        padding-right: 20px;
+        text-align: left;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+          "div div div"
+          "footer footer footer"
+  }
+      
+      body main header img {
+      width: auto;
+      height: 150px;
+      object-fit: scale-down;
+      text-align: left;
+      position: relative;
+      padding-bottom: 10px;
+      }
+
+ li a{
+    color: #00adee;
+    font-weight: bold;
+    padding: 6%;
+    line-height: 150%;
+    text-decoration-line: none;
+ }
+
+ h2 {
+  color: #8CC36F;
+  text-align: center;
+  text-justify: 15px;
+  font-size: 110%;
+}
+ 
+section p{
+  width: 300px;
+  position: cover;
+  text-align: left;
+
+}
+#what-we-do{
+  border-right: var(--light-green);
+  border-right-style: solid;
+  border-right-width: 2px;
+
+}
+
+#our-work{
+padding-left: 10%;
+margin-right: 100px;
+}
+#contact-us{
+  text-align: center;
+  padding-left: 10%;
+  margin-right: 50px;
+  border-left: var(--light-green);
+  border-left-style: solid;
+  border-left-width: 2px;
+}
+
+h3{
+  font-size: 0px;
+}
+footer div p{
+  font-size: 0;
+}
+
+footer div div img {
+  width: 0%;
+  height: 0%;
+}
+
+

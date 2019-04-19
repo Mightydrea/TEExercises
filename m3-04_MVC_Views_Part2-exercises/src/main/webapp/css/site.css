@@ -1,0 +1,153 @@
+body {
+	width: 100%;
+	background-color: #212121;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+body, header, nav {
+	margin: 0px;
+}
+
+header {
+	background-color: #0099CC;
+	color: white;
+	padding: 10px 10px;
+}
+
+nav {
+	background-color: #8DC63F;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 50px;
+}
+
+nav ul {
+	float: left;
+}
+
+nav li {
+	list-style-type: none;
+	color: white;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	float: left;
+}
+
+nav li a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+#main-content {
+	clear: both;
+	display: block;
+	width: auto;
+	margin: 20px auto;
+	vertical-align: top;
+	text-align: left;
+	height: 1000px;
+	background-color: #FFF;
+	border-radius: 10px;
+}
+section ul{
+	list-style: none;
+	position: relative;
+	margin: top;
+	display: block;
+	
+}
+#entireLayout{
+	display: grid;
+	grid-column: 2;		
+}
+
+#tileLayout{
+	align: center;
+	display: inline-block;
+	margin-right: 75px;
+	margin-left: 75px;
+}
+
+#styleProducts{
+	grid-column-start: 2;
+	margin-top: 25px;
+	margin-right: 75px;
+	border-bottom: solid 1px gray;	
+}
+
+div img{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	width: 200px;
+	height: auto;
+	
+}
+
+#name{
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+
+span{
+	color: red;
+	font-weight: bold;
+}
+
+#weight{
+	color: black;
+	font-weight: Bold
+}
+
+#numberLeft{
+	color: blue;
+}
+
+#productImage{
+	margin-left: 75px;
+	padding-top: 15px;
+	border-bottom: solid 1px gray;
+	
+}
+.productImage{
+	display: inline;
+	
+}
+#star{
+	transform: scale(.5);
+	height: 30px;
+	width: 60px;
+}
+#star1{
+	transform: scale(.8);
+	height: 40px;
+	width: 60px;
+}
+
+h3{
+	font-size: 40px;
+	font-family: Sans-serif;
+  	text-align: center;
+}
+tr th td{
+	padding: 25px;
+}
+
+tr td{
+	width: 80%;
+}
+td img{
+	width: 150px;
+	
+}
+
+#rowHeader{
+	width: 20%;
+}
